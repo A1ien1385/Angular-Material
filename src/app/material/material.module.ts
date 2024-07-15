@@ -8,6 +8,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {FormsModule} from '@angular/forms';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatListModule} from '@angular/material/list';
+import {MatIconModule} from '@angular/material/icon';
 
 const MaterialComponents = [
   MatButtonModule,
@@ -17,7 +18,8 @@ const MaterialComponents = [
   MatSidenavModule,
   FormsModule,
   MatMenuModule,
-  MatListModule
+  MatListModule,
+  MatIconModule
 ]
 
 
