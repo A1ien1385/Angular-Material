@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'angular-material3';
   notifications = 1;
   showSpinner = false;
+  opened = false;
 
   loadData() {
     this.showSpinner = true;
